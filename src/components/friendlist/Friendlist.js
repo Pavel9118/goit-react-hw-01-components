@@ -26,6 +26,7 @@ export default function FriendList({ friends }) {
   );
 };
 
+
 FriendListItem.PropTypes = {
   avatar: PropTypes.string,
   name: PropTypes.string,
