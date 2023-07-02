@@ -6,7 +6,7 @@ import Statistics from '../Statistics/Statistics';
 import transactions from '../TransactionHistory/transactions.json';
 import TransactionHistory from '../TransactionHistory/TransactionHistory';
 import css from './Profile.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 
 
