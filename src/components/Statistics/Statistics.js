@@ -16,8 +16,8 @@ export default function Statistics({ title, stats, id }) {
 </section>
   )
 };
-Statistics.PropTypes = {
-  title: PropTypes.string.isRequired,
-  stats: PropTypes.array,
-  id: PropTypes.number,
-}
+// Statistics.PropTypes = {
+//   title: PropTypes.string.isRequired,
+//   stats: PropTypes.array,
+//   id: PropTypes.number,
+// }

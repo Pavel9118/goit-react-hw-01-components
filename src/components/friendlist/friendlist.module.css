@@ -1,5 +1,8 @@
 .friendlist {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .avatar {
   display: block;
@@ -13,12 +16,25 @@
 }
 .item {
   margin-bottom: 20px;
-  display: block;
-  justify-content:center;
+  display: flex;
   align-items: center;
+  gap: 15px;
 }
 .name {
   font-size: 26px;
   text-align: center;
   
+}
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.statusOnline {
+    background-color: rgb(71, 210, 20);
+}
+.statusOffline {
+    background-color: rgb(216, 34, 34);
 }

@@ -28,6 +28,6 @@ export default function TransactionHistory({ items }) {
   );
 };
 
-TransactionHistory.PropTypes = {
-  items: PropTypes.array,
-}
+// TransactionHistory.PropTypes = {
+//   items: PropTypes.array,
+// }
