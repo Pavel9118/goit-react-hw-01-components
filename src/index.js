@@ -2,6 +2,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
+// import PropTypes from "prop-types";
 // import user from './user.json'
 // import friends from './friends.json'
 // import data from './data.json'
