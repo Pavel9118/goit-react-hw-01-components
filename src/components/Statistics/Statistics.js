@@ -16,7 +16,7 @@ export default function Statistics({ title, stats, id }) {
 </section>
   )
 };
-Statistics.PropTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
