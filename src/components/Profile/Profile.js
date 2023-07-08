@@ -1,10 +1,10 @@
 // import Statistics from './Statistics';
-import FriendList from '../friendlist/Friendlist';
-import data from '../Statistics/data.json';
-import friends from '../friendlist/friends.json';
-import Statistics from '../Statistics/Statistics';
-import transactions from '../TransactionHistory/transactions.json';
-import TransactionHistory from '../TransactionHistory/TransactionHistory';
+// import FriendList from '../friendlist/Friendlist';
+// import data from '../Statistics/data.json';
+// import friends from '../friendlist/friends.json';
+// import Statistics from '../Statistics/Statistics';
+// import transactions from '../TransactionHistory/transactions.json';
+// import TransactionHistory from '../TransactionHistory/TransactionHistory';
 import css from './Profile.module.css';
 import PropTypes from "prop-types";
 
