@@ -1,5 +1,5 @@
 import css from './friendlist.module.css';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 import PropTypes from "prop-types";
 import FriendListItem from './FriendListItem/FriendListItem'
 
