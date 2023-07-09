@@ -21,6 +21,7 @@ export default function FriendList({ friends }) {
         <FriendListItem 
           avatar={friend.avatar}
           name={friend.name}
+          isOnline={friend.isOnline}
           key={friend.id} />
         ))}
     
@@ -30,7 +31,7 @@ export default function FriendList({ friends }) {
 };
 
 
-FriendListItem.PropTypes = {
+FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
